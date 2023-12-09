@@ -1,0 +1,39 @@
+/* AdminMenu.css */
+
+.admin-menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    background-color: #6DB9EF;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-menu-item {
+    text-decoration: none;
+    color: #333;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #e0e0e0;
+    }
+  }
+  
+  .admin-menu-container h4 {
+    margin-bottom: 10px;
+  }
+  
+  .spinner-container {
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
